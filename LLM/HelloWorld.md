@@ -4,7 +4,8 @@
 ```
 studio-conda -o internlm-base -t demo
 ```
-![[Pasted image 20240406095556.png]]
+<img src='.\pics\Pasted image 20240406095556.png'>
+
 并完成环境配置
 ```
 pip install huggingface-hub==0.17.3
@@ -16,7 +17,7 @@ pip install matplotlib==3.8.3
 pip install modelscope==1.9.5
 pip install sentencepiece==0.1.99
 ```
-![[Pasted image 20240406095703.png]]
+<img src='.\pics\Pasted image 20240406095703.png'>
 
 2. 创建路径，新建文件
 ```
@@ -43,7 +44,7 @@ snapshot_download("Shanghai_AI_Laboratory/internlm2-chat-1_8b",
 
 ```
 并执行该py文件，下载模型参数：
-![[Pasted image 20240406100428.png]]
+<img src='.\pics\Pasted image 20240406100428.png'>
 
 4. cli_demo.py
 ```python
@@ -80,19 +81,19 @@ while True:
 
 ```
 执行Demo程序：
-![[Pasted image 20240406100838.png]]
+<img src='.\pics\Pasted image 20240406100838.png'>
 
 ## 部署八戒
 
-![[Pasted image 20240406101754.png]]
-![[Pasted image 20240406101902.png]]
+<img src='.\pics\Pasted image 20240406101754.png'>
+<img src='.\pics\Pasted image 20240406101902.png'>
 
 ## 开启本地连接
-![[Pasted image 20240406101921.png]]
-![[Pasted image 20240406102227.png]]
-![[Pasted image 20240406102715.png]]
+<img src='.\pics\Pasted image 20240406101921.png'>
+<img src='.\pics\Pasted image 20240406102227.png'>
+<img src='.\pics\Pasted image 20240406102715.png'>
 
 ## Huggingface_hub下载文件
 
 1. 安装huggingface库
-![[Pasted image 20240406103259.png]]
+<img src='.\pics\Pasted image 20240406103259.png'>
